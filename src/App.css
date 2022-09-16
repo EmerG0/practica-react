@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-image {
+  margin-left: 33%;
+}
+
+.searchBar-box {
+  display: flex;
+  margin: 0px auto;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.searchBar {
+  background-color: white;
+} 
+
+.searchBar input {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px black;
+  border: none;
+  margin-left: 500px;
+}
+
+.searchBar input:focus {
+  outline: none;
+}
+
+.searchBar-buton button{
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 4px rgb(128, 10, 26);
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 50px;
+}
+
+.filtrado-body {
+  margin-left: 60%;
+  margin-top: -30px;
+}
+
+.filtrado-body input {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px black;
+  border: none;
+}
+
+.header > div {
+  margin-right: 110px;
+}
+
+.header > h1 {
+  margin-left: 110px;
+}
+
+.pokedex-grid {
+  margin-top: -60px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  padding: 0px 10px;
+}
+
+.poke-card {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 3px 3px 4px rgb(71, 70, 70);
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.poke-image {
+  height: 120px;
+  width: 120px;
+}
+
+.card-body {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+}
+
+.poke-name {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poke-name h3{
+  text-transform: capitalize;
+}
+
+.types {
+  display: flex;
+  text-transform: capitalize;
+  justify-content:space-around;
+}
